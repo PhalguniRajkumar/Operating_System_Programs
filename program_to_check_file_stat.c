@@ -9,6 +9,7 @@ struct stat file;
 int n;
 if (argc != 2)
 {
+	//Enter in this format : ./a.out <filename or path>
 printf("Usage: ./a.out <filename>\n");
 exit(-1);
 }
